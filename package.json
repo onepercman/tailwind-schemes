@@ -1,6 +1,6 @@
 {
   "name": "tailwind-schemes",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "author": "onepercman",
   "description": "A TailwindCSS plugin for dynamic multi-theme color schemes, enabling easy customization and switching between themes like light and dark mode.",
   "main": "dist/index.js",

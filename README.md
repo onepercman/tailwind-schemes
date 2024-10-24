@@ -141,3 +141,5 @@ A helper plugin to add global css
 ## Contributing
 
 Explain how others can contribute to the development of the plugin.
+
+<a href="https://www.buymeacoffee.com/onepercman" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174" style="border-radius:6px"></a>
