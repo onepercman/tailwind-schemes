@@ -35,12 +35,18 @@ type Scheme = Partial<{
   [key: string]: Color
 }>
 
-type TailwindColorsConfig = {
-  selector?: 'class' | string
-  prefix?: string
-  global?: Scheme
-  schemes: Record<string, Scheme>
-}
+type Schemes = Partial<{
+  root: Scheme
+  dark: Scheme
+  light: Scheme
+  [key: string]: Scheme
+}>
+
+type TailwindSchemesConfig = Partial<{
+  selector: 'class' | string
+  prefix: string
+  schemes: Schemes
+}>
 
 type ResetProperty = string | string[] | object
 
@@ -50,4 +56,4 @@ type ResetOptions = Partial<{
   [key: string]: ResetProperty
 }>
 
-export type { Color, Scheme, TailwindColorsConfig, ResetOptions }
+export type { Color, Scheme, TailwindSchemesConfig, ResetOptions }
