@@ -32,12 +32,12 @@ This Tailwind CSS plugin provides a flexible way to define and use color schemes
        schemes({
          selector: 'data-theme', // Optional: "class" or any selector (default is 'data-theme' => [data-theme="dark/light/custom..."])
          prefix: 'tw-schemes', // Optional: default is 'tw-schemes'
-         global: {
-           primary: '#3490dc',
-           secondary: '#ffed4a',
-           // More global colors...
-         },
          schemes: {
+           root: {
+             primary: '#3490dc',
+             secondary: '#ffed4a',
+             // More root colors...
+           },
            light: {
              primary: '#ffffff',
              secondary: '#000000',
@@ -99,7 +99,6 @@ The main function to configure your color schemes.
   - `config` (optional): An object with the following properties:
     - `selector` (string): The CSS selector for the theme. Default is `'data-theme'`.
     - `prefix` (string): The prefix for the CSS variables. Default is `'tw-schemes'`.
-    - `global` (object): A global color scheme.
     - `schemes` (object): An object where keys are theme names and values are color schemes.
 
 ### `colorize`
